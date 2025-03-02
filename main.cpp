@@ -1,4 +1,5 @@
 #include <iostream>
+#include <locale>
 #include "stack.h"
 #include "queue.h"
 #include "linked_list.h"
@@ -170,6 +171,7 @@ void Task5() {
 }
 
 int main() {
+  std::setlocale(LC_ALL, "ru_RU.UTF-8");
   int choice;
   bool exit_program = false;
 
