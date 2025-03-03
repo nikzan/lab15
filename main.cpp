@@ -5,7 +5,7 @@
 #include "linked_list.h"
 
 void Task1() {
-  std::cout << "\n===== Task1 =====\n";
+  std::cout << "\n--------------------\n";
   Stack stack;
   int n, value;
 
@@ -31,7 +31,7 @@ void Task1() {
 }
 
 void Task2() {
-  std::cout << "\n===== Task2 =====\n";
+  std::cout << "\n--------------------\n";
   Queue queue1, queue2;
   int n, value;
 
@@ -92,7 +92,7 @@ void Task2() {
 }
 
 void Task3() {
-  std::cout << "\n===== Task3 =====\n";
+  std::cout << "\n--------------------=\n";
   LinkedList list;
   int n, value;
 
@@ -118,7 +118,7 @@ void Task3() {
 }
 
 void Task4() {
-  std::cout << "\n===== Task4 =====\n";
+  std::cout << "\n--------------------\n";
   LinkedList list;
   int n, value, m;
 
@@ -143,7 +143,7 @@ void Task4() {
 }
 
 void Task5() {
-  std::cout << "\n===== Task5 =====\n";
+  std::cout << "\n--------------------\n";
   LinkedList list;
   int n, value, m, k;
 
@@ -176,7 +176,7 @@ int main() {
   bool exit_program = false;
 
   do {
-    std::cout << "\n===== Задания =====\n";
+    std::cout << "\--------------------\n";
     std::cout << "1. Task1\n";
     std::cout << "2. Task2\n";
     std::cout << "3. Task3\n";
